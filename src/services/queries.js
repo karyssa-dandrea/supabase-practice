@@ -55,4 +55,5 @@ export async function getHighestGrossingMovie() {
     .limit(1)
     .single();
   return checkError(resp);
+  // need github checks to pass
 }
